@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=4
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.h2=3
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=code05_Hibernate_JPA_MySQL_demo
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.5.3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo Project for Hibernate_JPA_MySQL
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=iacademy.edu.ph
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=code05_Hibernate_JPA_MySQL_demo
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=iacademy.edu.ph
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

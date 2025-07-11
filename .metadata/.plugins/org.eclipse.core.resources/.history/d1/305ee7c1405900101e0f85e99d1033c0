@@ -1,0 +1,55 @@
+package iacademy.edu.ph;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import iacademy.edu.ph.model.Payroll;
+import iacademy.edu.ph.service.PayrollService;
+
+import java.util.Scanner;
+
+
+@SpringBootApplication
+public class Code05HibernateJpaMySqlDemoApplication implements CommandLineRunner {
+
+	@Autowired
+	PayrollService servicePayRoll;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(Code05HibernateJpaMySqlDemoApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		System.out.println("Welcome to the Payroll Application");
+		
+		Payroll payroll = new Payroll();
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter Last Name: ");
+		payroll.setLastName(scanner.nextLine());
+		
+		System.out.println("Enter First Name: ");
+		payroll.setFirstName(scanner.nextLine());
+		
+		System.out.println("Enter Employee ID: ");
+		payroll.setEmpId(scanner.nextInt());
+		
+		System.out.println("Enter Hours Worked: ");
+		payroll.setHoursWorked(scanner.nextInt());
+		
+		System.out.println("Enter Rate Per Hour: ");
+		payroll.setRatePerHour(scanner.nextDouble());
+		
+		if (this.servicePayRoll != null) {
+			this.servicePayRoll.computePayRoll(payroll);
+			System.out.println("Net Pay: " + payroll.getNetPay());
+		}
+		else 
+			System.err.println("ServicePayroll is NULL.");
+	}
+
+}

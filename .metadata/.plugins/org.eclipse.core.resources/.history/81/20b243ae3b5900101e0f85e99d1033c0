@@ -1,0 +1,13 @@
+package iacademy.edu.ph.service;
+
+import org.springframework.stereotype.Service;
+import iacademy.edu.ph.model.*;
+@Service
+public class PayrollService {
+	
+	public void computePayRoll() {
+		
+		
+		return;
+	}
+}

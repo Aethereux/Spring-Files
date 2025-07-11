@@ -1,0 +1,6 @@
+package iacademy.edu.ph.service;
+
+@Service
+public class PayrollService {
+
+}

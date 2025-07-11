@@ -1,0 +1,14 @@
+package iacademy.edu.ph.view;
+
+import iacademy.edu.ph.model.*;
+public class Display {
+
+	public static void print(Payroll payroll) {
+		System.out.println("Employee ID: " + payroll.getEmpId());
+		System.out.println("Last Name: " + payroll.getLastName());
+		System.out.println("First Name: " + payroll.getFirstName());
+		System.out.println("Hours Worked: " + payroll.getHoursWorked());
+		System.out.println("Rate per Hour: Php" + payroll.getRatePerHour());
+		System.out.println("Basic Pay: " + payroll.getBasicPay());
+	}
+}

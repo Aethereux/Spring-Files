@@ -1,0 +1,92 @@
+package iacademy.edu.ph.model;
+
+public class Payroll {
+	private int empId;
+	private String lastName;
+	private String firstName;
+	private int hoursWorked;
+	private double ratePerHour;
+	
+	private double SSS = 2500;
+	private double HDMF = 1000;
+	
+	private double basicPay;
+	private double overtimePay;
+	private double grossPay;
+	private double withHoldingTax;
+	private double netPay;
+	public int getEmpId() {
+		return empId;
+	}
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public int getHoursWorked() {
+		return hoursWorked;
+	}
+	public void setHoursWorked(int hoursWorked) {
+		this.hoursWorked = hoursWorked;
+	}
+	public double getRatePerHour() {
+		return ratePerHour;
+	}
+	public void setRatePerHour(double ratePerHour) {
+		this.ratePerHour = ratePerHour;
+	}
+	public double getSSS() {
+		return SSS;
+	}
+	public void setSSS(double sSS) {
+		SSS = sSS;
+	}
+	public double getHDMF() {
+		return HDMF;
+	}
+	public void setHDMF(double hDMF) {
+		HDMF = hDMF;
+	}
+	public double getBasicPay() {
+		return basicPay;
+	}
+	public void setBasicPay(double basicPay) {
+		this.basicPay = basicPay;
+	}
+	public double getOvertimePay() {
+		return overtimePay;
+	}
+	public void setOvertimePay(double overtimePay) {
+		this.overtimePay = overtimePay;
+	}
+	public double getGrossPay() {
+		return grossPay;
+	}
+	public void setGrossPay(double grossPay) {
+		this.grossPay = grossPay;
+	}
+	public double getWithHoldingTax() {
+		return withHoldingTax;
+	}
+	public void setWithHoldingTax(double withHoldingTax) {
+		this.withHoldingTax = withHoldingTax;
+	}
+	public double getNetPay() {
+		return netPay;
+	}
+	public void setNetPay(double netPay) {
+		this.netPay = netPay;
+	}
+	
+	
+}
